@@ -1,0 +1,17 @@
+<div
+  class="d-flex flex-column align-content-between justify-content-between vh-100"
+>
+  <div class="mt-2 pb-1">
+    <app-navbar></app-navbar>
+  </div>
+  <div class="pt-5 mt-3 mx-1">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="mx-1 mt-2 mb-1">
+    <app-footer></app-footer>
+  </div>
+</div>
+
+<div class="fixed-icon" (click)="scrolTop()">
+  <i class="fa-solid fa-angles-up"></i>
+</div>

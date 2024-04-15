@@ -1,0 +1,46 @@
+label {
+    color: gray !important;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold !important;
+    color: whitesmoke !important;
+    position: relative;
+    background-color: transparent;
+    border: 3px solid #7986CB;
+    padding: 8px 10px;
+    border-radius: 6px !important;
+    width: fit-content !important;
+}
+
+/* h2::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: green;
+    top: 100%;
+    left: 0;
+    border-radius: 20px !important;
+
+} */
+
+textarea {
+    resize: vertical !important;
+    height: 150px !important;
+}
+
+
+div button {
+    background-color: transparent;
+    color: #7986CB;
+    border: 1px solid #7986CB;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+div button:hover {
+    background-color: #7986CB;
+    color: black;
+}

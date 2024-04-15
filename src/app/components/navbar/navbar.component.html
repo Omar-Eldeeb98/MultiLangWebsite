@@ -1,0 +1,80 @@
+<nav
+  class="navbar navbar-expand-lg fixed-top navbar-dark bg-black p-2 mt-1 mx-1 rounded"
+  [dir]="'DIRECTION' | translate"
+>
+  <div class="container">
+    <a class="navbar-brand" href="">
+      <img src="assets/logo/code.png" alt="app logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a
+            class="nav-link text-uppercase fw-bold"
+            routerLink="/home"
+            routerLinkActive="active-link"
+            >{{ "navbar.home" | translate }}</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-uppercase fw-bold"
+            routerLink="/about"
+            routerLinkActive="active-link"
+            >{{ "navbar.about" | translate }}</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link text-uppercase fw-bold"
+            routerLink="/signup"
+            routerLinkActive="active-link"
+            >{{ "navbar.contact" | translate }}</a
+          >
+        </li>
+        <li class="nav-item dropdown px-2">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img src="assets/logo/lang.png" alt="" />
+          </a>
+          <ul
+            class="dropdown-menu bg-black shadow border border-1 border-white rounded"
+          >
+            <li
+              (click)="switchLang('en')"
+              class="text-white-50 d-flex justify-content-center"
+            >
+              EN :
+              <img src="assets/flags/us.png" alt="" class="ms-1" />
+            </li>
+            <li><hr class="text-white" /></li>
+            <li
+              (click)="switchLang('ar')"
+              class="text-white-50 d-flex justify-content-center"
+            >
+              AR :
+              <img src="assets/flags/ar.png" alt="" class="ms-1" />
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

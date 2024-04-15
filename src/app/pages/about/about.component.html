@@ -1,0 +1,25 @@
+<section class="bg-dark rounded mt-3" [dir]="'DIRECTION' | translate">
+  <div class="container">
+    <div class="row p-3 align-items-center justify-content-center g-2">
+      <div class="col-md-4 pe-4">
+        <div class="image-container text-center">
+          <img src="assets/logo/user.png" alt="user pic" class="w-75" />
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h2
+          class="text-white text-uppercase bg-black p-2 rounded shadow text-center border border-1 border-primary"
+        >
+          {{ "about-title" | translate }}
+        </h2>
+        <div
+          class="about-container bg-black shadow p-2 rounded border border-1 border-primary"
+        >
+          <p class="text-white-50 text-center">
+            {{ "about" | translate }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+.container h3 {
+    background-color: #3F51B5;
+    width: fit-content;
+}
+
+
+.col-md-12:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+
+}

@@ -1,0 +1,15 @@
+.fixed-icon {
+    position: fixed;
+    background-color: #3F51B5;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 92%;
+    color: whitesmoke;
+    font-size: 20px;
+    right: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}

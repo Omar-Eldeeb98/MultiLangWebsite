@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Muli Languages"
+  },
+
+  "DIRECTION": "ltr",
+
+  "home-title": "implementing (ngx-translate) package steps :",
+
+  "about": "Hi I'm OMAR MAKRAM ELDEEB ,From Damanhur, Egypt. I Work As A Software Engineer And Specialize In Angular (2+) Front-End Web Development. My Passion Lies In Crafting Responsive Web Applications. Proficient In Angular Framework, TypeScript, HTML5, CSS3, Bootstrap 5, JQuery, API Integration, ECMAScript 6, And JavaScript. I Thrive On Learning And Teamwork, Dedicated To Staying Updated On Industry Advancements And Emerging Technologies To Improve Skills And Deliver Innovative Solutions Consistently.",
+  "about-title": "about",
+  "navbar": {
+    "home": "home",
+    "about": "about",
+    "services": "services",
+    "contact": "contact us"
+  },
+
+  "register": {
+    "h2": "register now",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "re-password": "Re-Password",
+    "feedback": "message",
+    "register-button": "Confirm",
+    "have-account": "have an account ? ",
+    "login": "login"
+  },
+
+  "palaceholder": {
+    "name": "please enter your name",
+    "email": " Please enter your email address",
+    "password": "Please enter your password here ",
+    "re-password": "please re-enter your password",
+    "feedback": "let us know your feedback"
+  }
+}
